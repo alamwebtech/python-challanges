@@ -1,3 +1,5 @@
+#Challenge No 1
+
 a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 
 print(a)
@@ -16,3 +18,22 @@ for i in a:
 		print(f"{result}This is the list and it contains all the numbers that smaller than what you chossed.\n")
 		break
 	print("End of the program")
+
+
+
+#Challenge No 2
+
+num = int(input("Please choose a number:" ))
+
+range_num = list(range(1,num +1))
+
+list_num = []
+
+for i in range_num:
+	if num % i == 0:
+	list_num.append(i)
+	
+print(list_num)
+
+
+
